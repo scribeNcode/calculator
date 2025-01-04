@@ -32,3 +32,8 @@ subNum(8,6);
 multiNum(4,2);
 divideNum(4,2)
 
+
+// Create a variable for  a number, an operator, and another number each.
+let firstNumber ;
+let secondNumber ;
+let operator;
