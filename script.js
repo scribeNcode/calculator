@@ -37,3 +37,21 @@ divideNum(4,2)
 let firstNumber ;
 let secondNumber ;
 let operator;
+
+
+// Create a new function operate that takes an operator and two numbers and then calls one of the above functions on the numbers.
+
+
+function operate(numA,operator,numB){
+    if(operator === '+'){
+        addNum(numA, numB)
+    }else if(operator === '-'){
+        subNum(numA, numB)
+    }else if(operator === '/'){
+        divideNum(numA, numB)
+    }else if(operator === '*'){
+        multiNum(numA, numB)
+    }else{
+        return 'invalid operation'
+    }
+}
