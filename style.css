@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: rgba(85, 81, 81, 0.904);
+    width: 40%;
+}
