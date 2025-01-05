@@ -7,5 +7,29 @@
 
 .container{
     background-color: rgba(85, 81, 81, 0.904);
-    width: 40%;
+    width: 30%;
+    height: 70vh;
+}
+
+
+#result{
+    width: 90%;
+    height: 3rem;
+    margin-top: 1px;
+    background-color: aliceblue;
+}
+
+.buttonWrapper{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.eachButton{
+    flex-basis: calc(100% /(16/4));
+    height:   calc(100% /(16/4));
+    background-color: grey;
+    color: white;
+    text-align: center;
 }
