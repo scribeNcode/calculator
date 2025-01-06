@@ -6,18 +6,23 @@
 
 
 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
     background-color: rgba(85, 81, 81, 0.904);
     width: 30%;
     height: 70vh;
-    margin-top: 2rem;
+    
 }
 
 
 #result{
     width: 90%;
     height: 3rem;
-    margin-top: 5rem;
+    margin-top: 1rem;
     background-color: #cadfa3;
+    border-radius: 5px;
+    margin-bottom: 1rem;
 
 }
 
