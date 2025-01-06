@@ -9,14 +9,16 @@
     background-color: rgba(85, 81, 81, 0.904);
     width: 30%;
     height: 70vh;
+    margin-top: 2rem;
 }
 
 
 #result{
     width: 90%;
     height: 3rem;
-    margin-top: 1px;
-    background-color: aliceblue;
+    margin-top: 5rem;
+    background-color: #cadfa3;
+
 }
 
 .buttonWrapper{
