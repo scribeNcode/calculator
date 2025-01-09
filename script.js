@@ -51,3 +51,92 @@ function operate(numA,operator,numB){
         return 'invalid operation'
     }
 }
+
+
+
+
+
+let userClickedbutton = document.querySelector('#result');
+
+let currentNumClicked = [];
+
+
+
+// use populateDisplay function directly on button
+
+document.querySelector('#one').addEventListener('click',()=>{
+    populateDisplay(1)
+});
+
+
+document.querySelector('#two').addEventListener('click',()=>{
+    populateDisplay(2)
+});
+
+document.querySelector('#three').addEventListener('click',()=>{
+    populateDisplay(3)
+})
+
+document.querySelector('#four').addEventListener('click',()=>{
+    populateDisplay(4)
+})
+
+document.querySelector('#five').addEventListener('click',()=>{
+    populateDisplay(5)
+})
+
+document.querySelector('#six').addEventListener('click',()=>{
+    populateDisplay(6)
+})
+
+document.querySelector('#seven').addEventListener('click',()=>{
+    populateDisplay(7)
+})
+
+document.querySelector('#eight').addEventListener('click',()=>{
+    populateDisplay(8)
+})
+
+
+document.querySelector('#nine').addEventListener('click',()=>{
+    populateDisplay(9)
+})
+
+
+
+// ------------      Operators  ----------------------
+
+
+document.querySelector('#plus').addEventListener('click',()=>{
+    populateDisplay('+')
+})
+
+
+document.querySelector('#minus').addEventListener('click',()=>{
+    populateDisplay('-')
+})
+
+
+document.querySelector('#multiply').addEventListener('click',()=>{
+    populateDisplay('*')
+})
+
+
+document.querySelector('#divide').addEventListener('click',()=>{
+    populateDisplay('/')
+})
+
+
+// Create the functions that populate the display when you click the buttons.
+function populateDisplay(buttonValue){
+    
+    if(buttonValue === 1 || 2 || 3 || 4 || 5 || 6 || 7 || 8 || 9 || '+' || '-' || '*' || '/'){
+        currentNumClicked.push(buttonValue)
+       
+        userClickedbutton.value +=  buttonValue 
+        console.log(currentNumClicked)
+
+    }
+  
+}
+
